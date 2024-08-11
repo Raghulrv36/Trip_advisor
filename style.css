@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-right: 80px;
+    margin-left: 10px;
+    padding: 0px;
+    position: sticky;
+    top: 3px;
+    z-index: 1;
+    background-color: white;
+    border: solid white 1px;
+}
+
+.navbar__s1 img{
+    height: 40px;
+    width: 40px;
+    margin-top: 6px;
+}
+
+.navbar__s3__login{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: fit-content;
+}
+.navbar__s3__login:hover{
+    opacity: 0.8;
+}
+
+.navbar__s1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 30px;
+    margin-right: 80px;
+}
+
+.navbar__s2{
+    display: flex;
+    align-items: center;
+     gap: 10px; 
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+.navbar__s2 a{
+    padding: 10px;
+    font-weight: 600;
+}
+.navbar__s2__two:hover{
+    text-decoration: underline;
+}
+.navbar__s2__one:hover{
+    text-decoration: underline;
+}
+.navbar__s2 a:hover{
+    background-color:rgb(243, 242, 242);
+    border-radius: 25px;
+}
+.navbar__s3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.navbar__s3__button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.navbar__s3__button:hover{
+    background-color: rgb(243, 242, 242);
+    border-radius: 25px;
+    padding: 10px;
+    opacity: 0.8;
+}
+.title__head{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 40px;
+    z-index: 1;
+}
+.icons__search{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.icons__search__box1,.icons__search__box2,.icons__search__box3,.icons__search__box4,.icons__search__box5,.icons__search__box6{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+.icons__search__box1:hover,.icons__search__box2:hover,.icons__search__box3:hover,.icons__search__box4:hover,.icons__search__box5:hover,.icons__search__box6:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+
+}
+
+.icons__search__img1{
+    height: 23px;
+    width: 25px;
+    margin-top: -3px;
+}
+.icons__search p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.icons__search__img2{
+    height: 23px;
+    width: 25px;
+    margin-top: -3px;
+}
+.icons__search__img3{
+    height: 26px;
+    width: 25px;
+    margin-top: -3px;
+}
+.icons__search__img4{
+    height: 26px;
+    width: 25px;
+    margin-top: -3px;
+}
+.icons__search__img5{
+    height: 27px;
+    width: 26px;
+    margin-top: -3px;
+}
+.icons__search__img6{
+    height: 26px;
+    width: 25px;
+    margin-top: -3px;
+}
+.search__bar{
+    border: solid whitesmoke 2px;
+    border-radius: 30px;
+    display: flex;
+    padding-left: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 23%;
+    margin-top: 20px;
+    box-shadow: 3px 3px whitesmoke;
+    position: sticky;
+    top: 22px;
+    z-index: 1;
+    background-color: white;
+}
+.search__bar__content input{
+    border: solid white 1px;
+    width: 150px;
+}
+.search__bar__content button{
+    border-radius: 30px;
+    padding: 12px;
+    background-color: #34E0A1;
+    border: none;
+    margin-left: 500px;
+    width:77px;
+}
+.Ai{
+    margin-top: 50px;
+}
+.Ai img{
+    height: 50%;
+    width: 85%;
+    padding-left: 100px;
+}
+.Exclusive{
+    padding: 15px;
+}
+.Exclusive h2, p{
+    padding-left: 25px;
+}
+.Exclusive__Destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Exclusive__Destination__Pic{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+}
+.Exclusive__Destination__Pic img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+.Exclusive__Destinations_pic img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Karnataka{
+    padding: 70px;
+}
+.Karnataka__tourism{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Karnataka__tourism__place{
+    flex-grow: 1;
+   flex-basis: 20%;
+   margin: 5px;
+}
+.Karnataka__tourism__place img{
+    height: 260px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.Karnataka__tourism__place img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Tamilnadu{
+    padding: 70px;
+}
+.Tamilnadu_tourism{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Tamilnadu_tourism__places{
+    flex-grow: 1;
+   flex-basis: 20%;
+   margin: 5px;
+}
+.Tamilnadu_tourism__places img{
+    height: 260px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.Tamilnadu_tourism__places img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.footer{
+    background-color: #FAF1ED;
+    padding: 30px;
+}
+.footer__one{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.footer__one__s1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer__two__s1{
+    padding: 10px;
+}
+.footer__two img{
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+}
+.footer__two{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding: 25px;
+}
+
+.footer__two__s1__box1{
+    font-size: 16px;
+    display: flex;
+    gap: 12px;
+}
+.footer__two__s1__box2{
+    margin-left: -582px;
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+.footer__two__s1 h4{
+text-decoration: underline;
+}
+.footer__two__s1 h4:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.footer__link{
+    display: flex;
+    padding-left: 300%;
+    gap: 30px;
+}
+.footer__link a{
+    font-size: 30px;
+    color: black;
+}
+.footer__link a:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* Media Queries */
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    
+}
